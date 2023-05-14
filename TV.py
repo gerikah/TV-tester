@@ -20,6 +20,11 @@ class TV :
         if self.on and 1 <= channel <= 120:
             self.channel = channel
 
+    # switch channel up
+    def channel_up(self):
+        if self.on and  self.channel < 120:
+            self.channel += 1
+
     # get and set volume level
     def get_volume_level(self):
         return self.volume_level
