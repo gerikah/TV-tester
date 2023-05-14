@@ -5,4 +5,7 @@ class TV :
         # set default values for channel, volume and tv on
         self.channel = 1
         self.volume_level = 1
-        self_tv_on = False
+        self.tv_on = False
+
+    def turn_on_TV(self):
+        self.tv_on
