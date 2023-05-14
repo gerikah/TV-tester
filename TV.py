@@ -12,3 +12,19 @@ class TV :
         self.tv_on = True
     def turn_off_TV(self):
         self.tv_on = False
+
+#    UML Diagram
+# channel: int
+# volumeLevel: int
+# on: bool
+# TV()
+# turnOn(): None
+# turnOff(): None
+# getChannel(): int
+# setChannel (channel: int): None
+# getvolume(): int
+# setVolume(volumeLevel: int): None
+# channelUp(): None
+# channelDown(): None
+# volumeUp(): None
+# volumeDown(): None
