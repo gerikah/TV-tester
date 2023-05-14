@@ -7,5 +7,8 @@ class TV :
         self.volume_level = 1
         self.tv_on = False
 
+    # TV on and off
     def turn_on_TV(self):
-        self.tv_on
+        self.tv_on = True
+    def turn_off_TV(self):
+        self.tv_on = False
