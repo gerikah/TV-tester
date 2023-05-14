@@ -15,7 +15,10 @@ class TV :
     
     # get and set channel
     def get_channel(self):
-        
+        return self.channel
+    def set_channel(self, channel):
+        if self.on and 1 <= channel <= 120:
+            self.channel = channel
 
 #    UML Diagram
 
