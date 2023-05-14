@@ -22,11 +22,11 @@ class TV :
 
     # switch channel up
     def channel_up(self):
-        if self.on and  self.channel < 120:
+        if self.tv_on and  self.channel < 120:
             self.channel += 1
     # switch channel down
     def channel_down(self):
-        if self.on and self.channel > 1:
+        if self.tv_on and self.channel > 1:
             self.channel -= 1
 
     # get and set volume level
@@ -35,6 +35,9 @@ class TV :
     def set_volume_level(self, volume_level):
         if self.on and 1 <= volume_level <=7:
             self.volume_level = volume_level
+
+    def volume_up(self):
+        if self.tv_on
 
     
 
