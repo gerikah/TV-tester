@@ -1,25 +1,24 @@
 # this will contain the code for the TV class
 
 class TV :
-    def __init__(self, channel, volume_level, tv_on):
+    def __init__(self):
         # set default values for channel, volume and tv on
-        self.channel = 1
-        self.volume_level = 1
-        self.tv_on = False
+        self.channel = 1 #int
+        self.volume_level = 1 #int
+        self.tv_on = False # boolean
 
     # TV on and off
     def turn_on_TV(self):
         self.tv_on = True
     def turn_off_TV(self):
         self.tv_on = False
+    
+    # get and set channel
+    def get_channel(self):
+        
 
 #    UML Diagram
-# channel: int
-# volumeLevel: int
-# on: bool
-# TV()
-# turnOn(): None
-# turnOff(): None
+
 # getChannel(): int
 # setChannel (channel: int): None
 # getvolume(): int
