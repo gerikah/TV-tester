@@ -20,10 +20,21 @@ class TV :
         if self.on and 1 <= channel <= 120:
             self.channel = channel
 
+    # get and set volume level
+    def get_volume_level(self):
+        return self.volume_level
+    def set_volume_level(self, volume_level):
+        if self.on and 1 <= volume_level <=7:
+            self.volume_level = volume_level
+
+    
+
+
+
+
 #    UML Diagram
 
-# getChannel(): int
-# setChannel (channel: int): None
+
 # getvolume(): int
 # setVolume(volumeLevel: int): None
 # channelUp(): None
