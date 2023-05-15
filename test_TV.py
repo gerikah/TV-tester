@@ -1,5 +1,9 @@
 # this file will contain the test driver program that creates two objects from TV class
 
+try:
+    import pyfiglet
+except ImportError:
+    print("The required module 'pyfiglet' is not installed.\nPlease install the module to continue.")
 
 from TV import TV
 def main ():
