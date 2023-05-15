@@ -1,12 +1,12 @@
 # this will contain the code for the TV class
 
 class TV :
-    def __init__(self, channel, volume_level, tv_power):
+    def __init__(self):
         # set default values for channel, volume and tv on
         self.channel = 1 #int
         self.volume_level = 1 #int
         self.tv_power = False # boolean
-
+     
     # TV on and off
     def turn_on_TV(self):
         self.tv_power = True

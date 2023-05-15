@@ -10,7 +10,7 @@ def main ():
 
     tv_2 = TV()
     tv_2.turn_on_TV()
-    tv_2.set_channel(15)
+    tv_2.set_channel(3)
     tv_2.set_volume_level(2)
 
     print("TV 1's channel is", tv_1.get_channel(), "and volume level is ", tv_1.get_volume_level())
