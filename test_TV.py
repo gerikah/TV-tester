@@ -1,3 +1,7 @@
+# Alday, Gerikah L.
+# BSCPE 1-5
+# Object Oriented Programming : Assignment 6
+
 # this file will contain the test driver program that creates two objects from TV class
 
 # import module with exception handling

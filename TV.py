@@ -1,3 +1,7 @@
+# Alday, Gerikah L.
+# BSCPE 1-5
+# Object Oriented Programming : Assignment 6
+
 # this will contain the code for the TV class
 
 class TV :
