@@ -31,13 +31,13 @@ def main ():
     tv_2.set_channel(3)
     tv_2.set_volume_level(2)
     test_tv2 = ("TV 2's channel is", tv_2.get_channel(), "and volume level is ", tv_2.get_volume_level())
-    centered_tv2 = ' '.join(str(item) for item in test_tv1).center(180)
+    centered_tv2 = ' '.join(str(item) for item in test_tv2).center(180)
 
     # print all the results
     print("\n\n" + border + "\n\n" + "\033[95m" + pyfiglet.figlet_format(program_title, justify = "center", font = "isometric1", width = 175) + "\n" + border)
     print("\n\n" + centered_tv1)
     print("\n\n" + centered_tv2)
-    print("\n" + border)
+    print("\n" + border + "\n")
 
 if __name__ == "__main__":
     main()
